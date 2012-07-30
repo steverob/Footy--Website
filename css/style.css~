@@ -1,0 +1,121 @@
+/*global decl */
+
+html, body
+{
+	border:0px;
+	margin:0px;
+}
+.hidden {
+	display:none;
+}
+
+/*main container div class */
+#container {
+	background: white;
+	width: 980px;
+	margin:auto;
+}
+
+/*header*/
+#header {
+    background-image: url(../images/header.png);
+    height: 200px;
+
+}
+
+/*navigation bar styling... */
+#nav {
+    background:url("../images/menu-final.png") no-repeat;
+    width: 980px;
+    height: 46px;
+    margin: 0;
+	margin-left:2px;
+    padding: 0;
+}
+#nav li, #nav a {
+    height: 46px;
+    display: block;
+}
+#nav li {
+    float: left;
+    list-style: none;
+    display: inline;
+    text-indent: -9999em;
+}
+
+#nav-home
+{ 
+	width: 80px; 
+	/*background: #FFFFFF;*/
+	margin-left:8px;
+	
+}
+
+#nav-scores-menu
+{ 
+	width: 120px; 
+	/*background: #FFFFFF;*/
+	margin-left:15px;
+	
+}
+
+#nav-bpl
+{ 
+	width: 131px; 
+	/*background: #FFFFFF;*/
+	margin-left:24px;
+}
+
+#nav-seriea
+{ 
+	width: 65px; 
+	/*background: #FFFFFF;*/
+	margin-left:24px;
+}
+
+#nav-laliga
+{ 
+	width: 70px; 
+	/*background: #FFFFFF;*/
+	margin-left:25px;
+}
+
+#nav-ucl
+{ 
+	width: 150px; 
+	/*background: #FFFFFF;*/
+	margin-left:21px;
+}
+
+#nav-home a:hover { background:url("../images/menu-final.png") -10px -51px no-repeat; }
+#nav-scores-menu a:hover { background:url("../images/menu-final.png") -103px -51px no-repeat; }
+#nav-bpl a:hover { background:url("../images/menu-final.png") -247px -51px no-repeat; }
+#nav-seriea a:hover { background:url("../images/menu-final.png") -402px -51px no-repeat; }
+#nav-laliga a:hover { background:url("../images/menu-final.png") -492px -51px no-repeat; }
+#nav-ucl a:hover { background:url("../images/menu-final.png") -583px -51px no-repeat; }
+
+#nav-home a:active { background:url("../images/menu-final.png") -10px -103px no-repeat; }
+#nav-scores-menu a:active { background:url("../images/menu-final.png") -103px -103px no-repeat; }
+#nav-bpl a:active { background:url("../images/menu-final.png") -247px -103px no-repeat; }
+#nav-seriea a:active { background:url("../images/menu-final.png") -402px -103px no-repeat; }
+#nav-laliga a:active { background:url("../images/menu-final.png") -492px -103px no-repeat; }
+#nav-ucl a:active { background:url("../images/menu-final.png") -583px -103px no-repeat; }
+
+#sidebar {
+	background: darkgreen;
+	float:left;
+	width:280px;
+}
+
+#content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-left:280px;
+	background: green;
+}
+
+#footer {
+	clear: both;
+	background: orange;
+	height: 66px;
+}

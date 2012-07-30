@@ -1,0 +1,366 @@
+/*global decl */
+
+html, body
+{
+	border:0px;
+	margin:0px;
+	background-image:url(../images/body-BG.jpg);
+}
+.hidden {
+	display:none;
+}
+
+/*main container div class */
+#container {
+	background: transparent;
+	width: 980px;
+	margin:auto;
+}
+
+/*header*/
+#header {
+    background-image: url(../images/header.png);
+    height: 200px;
+
+}
+
+/*navigation bar styling... */
+#nav {
+    background:url("../images/menu.png") no-repeat;
+    width: 980px;
+    height: 51px;
+    margin: 0;
+
+    padding: 0;
+}
+#nav li, #nav a {
+    height: 46px;
+    display: block;
+}
+#nav li {
+    float: left;
+    list-style: none;
+    display: inline;
+    text-indent: -9999em;
+}
+
+#nav-home
+{ 
+	width: 61px; 
+	/*background: #FFFFFF;*/
+	margin-left:24px;
+	
+}
+
+#nav-scores-menu
+{ 
+	width: 120px; 
+	/*background: #FFFFFF;*/
+	margin-left:25px;
+	
+}
+
+#nav-bpl
+{ 
+	width: 127px; 
+	/*background: #FFFFFF;*/
+	margin-left:24px;
+}
+
+#nav-seriea
+{ 
+	width: 65px; 
+	/*background: #FFFFFF;*/
+	margin-left:29px;
+}
+
+#nav-laliga
+{ 
+	width: 62px; 
+	/*background: #FFFFFF;*/
+	margin-left:29px;
+}
+
+#nav-ucl
+{ 
+	width: 146px; 
+	/*background: #FFFFFF;*/
+	margin-left:27px;
+}
+
+#nav-home a:hover 
+{ 
+  background:url("../images/menu.png") -24px -51px no-repeat; 
+}
+#nav-scores-menu a:hover 
+{ 
+  background:url("../images/menu.png") -110px -51px no-repeat; 
+}
+#nav-bpl a:hover 
+{ 
+  background:url("../images/menu.png") -254px -51px no-repeat; 
+}
+#nav-seriea a:hover 
+{ 
+  background:url("../images/menu.png") -499px -51px no-repeat; 
+}
+#nav-laliga a:hover 
+{ 
+  background:url("../images/menu.png") -409px -51px no-repeat; 
+}
+#nav-ucl a:hover 
+{ 
+  background:url("../images/menu.png") -590px -51px no-repeat; 
+}
+
+#nav-home a:active 
+{ 
+  background:url("../images/menu.png") -24px -103px no-repeat; 
+}
+#nav-scores-menu a:active 
+{ 
+  background:url("../images/menu.png") -110px -103px no-repeat; 
+}
+#nav-bpl a:active 
+{ 
+  background:url("../images/menu.png") -254px -103px no-repeat; 
+}
+#nav-seriea a:active 
+{ 
+  background:url("../images/menu.png") -499px -103px no-repeat; 
+}
+#nav-laliga a:active 
+{ 
+  background:url("../images/menu.png") -409px -103px no-repeat; 
+}
+#nav-ucl a:active 
+{ 
+  background:url("../images/menu.png") -590px -103px no-repeat; 
+}
+
+/*---BODY---*/
+
+#body-container {
+	width:980px;
+	background: url(../images/content-bg.png) repeat-y;
+	padding:0px;
+	margin-top:-17px;
+}
+
+#body-top
+{
+	width:980px;
+	padding:0px;
+	height:20px;
+	background: url(../images/body-BG-top.png);
+}
+
+#body-bottom
+{
+	width:980px;
+	padding:0px;
+	height:20px;
+	margin-top:-17px;
+	background: url(../images/body-BG-bottom.png);
+}
+
+#content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:650px;
+	margin-left:300px;
+}
+#content p
+{
+	text-align:justify;
+}
+#content h1
+{
+	font-size:25px;
+	color: #826239;
+}
+#content h2
+{
+	font-size:14px;
+	color: #97774f;
+}
+
+#content a
+{
+	color:#826239;
+
+}
+#content a:hover
+{
+	color:#826239;
+
+}
+#content a:visited
+{
+	color:#826239;
+
+}
+
+#content-seperator
+{
+	background:url(../images/seperator.png);
+	width:650px;
+	margin-left:300px;
+	height:4px;
+}
+
+/*---Sidebar---*/
+
+#sidebar-container {
+	background: transparent;
+	z-index:2;
+	position:absolute;
+	left:240px;
+	width:270px;
+}
+
+#sidebar-top {
+	background:url(../images/side-bar-top.png);
+	width:270px;
+	height:15px;
+}
+#sidebar-bottom {
+	background:url(../images/side-bar-bottom.png);
+	margin-top:-17px;
+	height:15px;
+}
+#sidebar-body {
+	background:url(../images/sidebar-body.png) repeat-y;
+	margin-top:-17px;
+}
+#sidebar-content {
+	margin-left:13px;
+	margin-top:15px;
+}
+
+#sidebar-content p {
+	margin-right:19px;
+	text-align:justify;
+	font-size:11px;
+	color:#000000;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+
+}
+#sidebar-content h1 {
+	font-size:15px;
+	color:#826239;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--SearchBox--*/
+#searchwrapper {
+	width:241px; 
+	height:31px;
+	background:url(../images/SearchBar.png);
+	background-repeat:no-repeat; 
+	padding:0px;
+	margin:0px;
+	position:relative; 
+}
+ 
+#searchwrapper form { display:inline ; }
+ 
+.searchbox {
+	border:0px; 
+	background-color:transparent; 
+	position:absolute; 
+	top:2px;
+	left:9px;
+	width:200px;
+	height:25px;
+	outline:none;
+	color:#FFFFFF;
+}
+ 
+.searchbox_submit {
+	border:0px; 
+	background-color:transparent; 
+	position:absolute; 
+	top:4px;
+	left:210px;
+	width:32px;
+	height:28px;
+}
+
+/*---sidebar navigation---*/
+.sidenavli
+{
+ 	list-style:url(../images/arrow.gif);
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+.sidenavul
+{
+	left:30px;
+	
+}
+
+#sidebar-content a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#sidebar-content a:hover
+{
+	text-decoration:none;
+	color:#826239;
+}
+
+.socialli
+{
+	display:inline;
+	list-style:none;
+}
+	
+
+/*---footer---*/
+
+
+#footer-container {
+	width:980px;
+	background:url(../images/FooterBody.png) repeat-y;
+	padding:0px;
+	margin-top:-11px;
+}
+
+#footer-content {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#DEC3A2;
+	content:100%;
+}
+#footer-content a{
+	color:#FFFFFF;
+	text-decoration: none;
+
+}
+#footer-content a:hover{
+	color:#97774f;
+}
+
+#footer-top
+{
+	width:980px;
+	padding:0px;
+	height:20px;
+	background:url(../images/FooterTop.png);
+}
+
+#footer-bottom
+{
+	width:980px;
+	padding:0px;
+	height:20px;
+	margin-top:-11px;
+	background:url(../images/FooterBottom.png);
+}
+
+
+
